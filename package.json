@@ -1,0 +1,14 @@
+{
+  "name": "chat-servidor-vercel",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "test": "node prueba.mjs"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.0",
+    "ws": "^8.18.0"
+  }
+}
